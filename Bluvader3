@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluVader | Competitive Gaming OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #000; color: #fff; font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(to right, #22d3ee, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-bg { background-color: #0a0a0a; border: 1px solid #1a1a1a; }
+        .btn-primary { background-color: #00f2ff; color: #000; }
+        .btn-secondary { border: 2px solid #a855f7; color: #a855f7; }
+        .badge-cyan { background: rgba(34, 211, 238, 0.1); color: #22d3ee; border: 1px solid rgba(34, 211, 238, 0.2); }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold flex items-center">
+            <span class="text-cyan-400">Blu</span><span class="text-purple-500">Vader</span>
+        </div>
+        <i data-lucide="menu" class="w-8 h-8"></i>
+    </nav>
+
+    <section class="text-center px-6 py-16 max-w-4xl mx-auto">
+        <div class="inline-flex items-center gap-2 badge-cyan px-4 py-1 rounded-full text-xs font-bold mb-8">
+            <i data-lucide="zap" class="w-3 h-3"></i> COMPETITIVE GAMING OS
+        </div>
+        <h1 class="text-5xl md:text-6xl font-black mb-6 leading-tight">
+            Dominate the Game. <span class="gradient-text">Own Your Identity.</span>
+        </h1>
+        <p class="text-gray-400 text-lg mb-10 leading-relaxed">
+            BluVader is the first competitive gaming super-app combining skill analytics, HTML5 tools, AI coaching, and a universal prestige system.
+        </p>
+        <div class="flex flex-col gap-4 max-w-sm mx-auto">
+            <button class="btn-primary py-4 rounded-xl font-bold flex items-center justify-center gap-2">
+                Enter the Arena <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </button>
+            <button class="btn-secondary py-4 rounded-xl font-bold">
+                Access the Vault
+            </button>
+        </div>
+
+        <div class="flex justify-around mt-20 border-t border-gray-800 pt-10">
+            <div>
+                <div class="text-3xl font-bold text-cyan-400">127,000+</div>
+                <div class="text-gray-500 text-sm">Active Players</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-cyan-400">450M+</div>
+                <div class="text-gray-500 text-sm">Prestige Score</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-12 max-w-5xl mx-auto">
+        <div class="text-center mb-12">
+            <span class="text-xs font-bold text-cyan-400 tracking-widest uppercase">HTML5 Training Suite</span>
+            <h2 class="text-3xl font-bold mt-4">HTML5 Competitive Tool Suite</h2>
+            <p class="text-gray-500 mt-2">Browser-based training tools designed for competitive excellence. No downloads required.</p>
+        </div>
+
+        <div class="grid gap-6">
+            <div class="card-bg p-8 rounded-2xl relative">
+                <span class="absolute top-6 right-6 text-[10px] font-bold bg-cyan-900/30 text-cyan-400 px-2 py-1 rounded">LIVE</span>
+                <div class="w-12 h-12 bg-cyan-950/50 rounded-lg flex items-center justify-center mb-6">
+                    <i data-lucide="target" class="text-cyan-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Aim Reaction Trainer Pro</h3>
+                <p class="text-gray-400 mb-6 text-sm">Advanced click-timing mechanics for FPS dominance. Train muscle memory and precision targeting.</p>
+                <button class="w-full py-3 rounded-lg border border-cyan-400 text-cyan-400 font-bold flex items-center justify-center gap-2">
+                    Launch Tool <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+            </div>
+
+            <div class="card-bg p-8 rounded-2xl relative">
+                <div class="w-12 h-12 bg-cyan-950/50 rounded-lg flex items-center justify-center mb-6">
+                    <i data-lucide="settings" class="text-cyan-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Sensitivity Optimizer</h3>
+                <p class="text-gray-400 mb-6 text-sm">Calculate perfect DPI and in-game sensitivity across all competitive titles.</p>
+                <button class="w-full py-3 rounded-lg border border-cyan-400 text-cyan-400 font-bold flex items-center justify-center gap-2">
+                    Launch Tool <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-12 max-w-5xl mx-auto">
+        <div class="text-center mb-12">
+            <span class="text-xs font-bold text-purple-500 tracking-widest uppercase px-4 py-1 bg-purple-950/20 rounded-full">Universal Identity System</span>
+            <h2 class="text-3xl font-bold mt-6">Universal Skins Vault™</h2>
+            <p class="text-gray-500 mt-2">A premium cross-game identity system. Track, showcase, and flex your digital asset portfolio.</p>
+        </div>
+
+        <div class="grid gap-6">
+            <div class="card-bg p-8 rounded-2xl">
+                <span class="text-[10px] font-bold text-cyan-400 border border-cyan-400 px-2 py-1 rounded mb-4 inline-block">PREMIUM</span>
+                <h3 class="text-xl font-bold">Prestige Index™ (Gaming Edition)</h3>
+                <p class="text-gray-400 text-sm mt-2">Cross-game inventory valuation system. Track your digital asset portfolio.</p>
+            </div>
+
+            <div class="card-bg p-8 rounded-2xl">
+                <div class="flex justify-between items-start">
+                    <div class="w-12 h-12 bg-purple-950/30 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="star" class="text-purple-500"></i>
+                    </div>
+                    <span class="text-[10px] font-bold bg-purple-600 text-white px-2 py-1 rounded">ELITE</span>
+                </div>
+                <h3 class="text-xl font-bold">Tier Ranking System</h3>
+                <p class="text-gray-400 text-sm mt-2">Universal prestige score across all gaming ecosystems.</p>
+            </div>
+        </div>
+
+        <div class="mt-12 p-12 rounded-3xl bg-gradient-to-b from-purple-900/20 to-black border border-purple-500/20 text-center">
+            <div class="text-6xl font-black text-purple-500 mb-2">$47M+</div>
+            <div class="text-xl font-bold">Total Prestige Value Tracked</div>
+        </div>
+    </section>
+
+    <footer class="p-10 text-center">
+        <div class="inline-flex items-center gap-2 bg-black border border-gray-800 px-4 py-2 rounded-full text-sm">
+            <div class="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                <div class="w-2 h-2 bg-black rounded-full"></div>
+            </div>
+            Made with <span class="font-bold">Emergent</span>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
